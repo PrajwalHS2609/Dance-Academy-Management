@@ -1,0 +1,122 @@
+.dashboard {
+    display: flex;
+    justify-content: center;
+    height: 92vh;
+    background-image: url("https://images.unsplash.com/photo-1470100568678-c2bc2ba890c1?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    margin-left: 20px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    list-style: none;
+    width: 20%;
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    backdrop-filter:blur(20px) ;
+    background-color: rgba(36, 36, 36, 0.291) ;
+    /* opacity: 0;
+    transition: 700ms ease-in-out;
+    margin-left: -50px; */
+}
+
+li {
+    margin-left: -20px;
+    transition: 100ms ease-in-out;
+    opacity: 0;
+    color: rgb(11, 11, 11);
+}
+
+.li1 {
+    transition: 100ms 600ms;
+}
+
+.li2 {
+    transition: 100ms 650ms;
+}
+
+.li3 {
+    transition: 100ms 700ms;
+}
+
+.li4 {
+    transition: 100ms 750ms;
+}
+
+.li5 {
+    transition: 100ms 800ms;
+}
+
+.li6 {
+    transition: 100ms 850ms;
+}
+
+li:hover {
+    color: black;
+}
+
+.dashboard:hover li {
+    transform: translateX(20px);
+    margin-left: 20px;
+    opacity: 1;
+}
+
+.adminmain {
+    width: 85%;
+}
+
+/* .dashboard:hover .sidebar {
+    opacity: 1;
+    transform: translateX(50px);
+} */
+
+.managerForm {
+    text-align: center;
+    width: 400px;
+    margin-left: 25%;
+    margin-top: 7%;
+    height: 380px;
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+.managerField {
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+}
+
+.viewBlock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+background-color: transparent;
+}
+
+span {
+    color: lightcoral;
+}
+
+.viewMain {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 330px;
+    height: 350px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: cyan;
+}

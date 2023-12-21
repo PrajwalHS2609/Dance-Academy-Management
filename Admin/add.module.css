@@ -1,0 +1,22 @@
+.addMain {
+    position: relative;
+
+
+
+}
+
+.addForm {
+    text-align: center;
+    width: 350px;
+    margin-left: 30%;
+    top: 25px;
+    position: absolute;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+
+.addField {
+    height: 100%;
+}

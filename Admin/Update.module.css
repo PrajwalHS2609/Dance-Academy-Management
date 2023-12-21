@@ -1,0 +1,19 @@
+.updateMain {
+    position: relative;
+   
+
+
+}
+
+.updateForm {
+    text-align: center;
+    width: 350px;
+    margin-left: 30%;
+    top: 25px;
+    position: absolute;
+    backdrop-filter: blur(10px);
+}
+
+.updateField {
+    height: 100%;
+}

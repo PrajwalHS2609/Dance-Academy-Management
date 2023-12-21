@@ -1,0 +1,12 @@
+.branchMain {
+    position: relative;
+}
+
+.branchbtn {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#addbranchbtn{
+    width: 140px;
+}

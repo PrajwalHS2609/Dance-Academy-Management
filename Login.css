@@ -1,0 +1,32 @@
+form {
+    height: 250px;
+    width: 400px;
+    margin-left: 35%;
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+
+}
+
+form>legend {
+    color: black;
+}
+
+form>fieldset {
+    border: none;
+    height: 100%;
+    border-radius: 10px;
+    height: 100%;
+    box-shadow: 20px 20px 20px black;
+}
+
+.main {
+    height: 92vh;
+    width: 100%;
+    background-image: url("https://media.istockphoto.com/id/1203930843/photo/blue-red-light-background.webp?b=1&s=170667a&w=0&k=20&c=GwfVdVlksL1wpcIDCxu4vjzfmHup7Zc2gi9pmwIoZ1w=");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: red;
+}
